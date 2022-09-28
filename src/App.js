@@ -7,19 +7,28 @@ function App() {
   const [count, setCount] = useState(0);
 
   return(
-    <div className="App">
+    <div class="App">
       <h1>Paint bucket</h1>
-      <div className='Container'>
-        <div className='Glass'></div>
+      <div class='Container'>
+        <div class='Glass'>Glass</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         <div>
-          <p>You clicked {count} times</p>
-          <button onClick={() => setCount(count + 1)}>
-            Click me
+          <button 
+            class='decrement'
+            onClick={() => setCount(count - 1)}
+            >
+            -
           </button>
-
-          <p>You clicked {count} times</p>
-          <button onClick={() => setCount(count - 1)}>
-            Click me
+          
+          <button
+            class='increment'
+            onClick={() => setCount(count + 1)}
+            >
+            +
           </button>
         </div>
       </div>
