@@ -17,7 +17,31 @@
   background-color: #ffffff;
   height: 400px;
   width: 200px;
-  align-self: auto;
+  justify-content: center;
+}
+
+.Nivel-1 {
+  background-color: #e6f2ff;
+  justify-content: center;
+  height: 80px;
+}
+
+.Nivel-2 {
+  background-color: #cce6ff;
+  justify-content: center;
+  height: 90px;
+}
+
+.Nivel-3 {
+  background-color: #b3d9ff;
+  justify-content: center;
+  height: 100px;
+}
+
+.Nivel-4 {
+  background-color: #99ccff;
+  justify-content: center;
+  height: 100px;
 }
 
 .increment {
@@ -30,9 +54,9 @@
   height: 50px;
   font-weight: bold;
   cursor: pointer;
-  position: absolute;
-  top: 222px;
-  right: 499px;
+  position: relative;
+  top: -285px;
+  left: 150px;
   font-size: 20px;
   display: inline;
   text-align: center;
@@ -49,8 +73,8 @@
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  top: -263px;
-  left: -140px;
+  top: 170px;
+  right: 150px;
   font-size: 30px;
   display: inline;
   text-align: center;
